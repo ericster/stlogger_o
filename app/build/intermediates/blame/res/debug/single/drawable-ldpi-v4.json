@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_action_option.png",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/drawable-ldpi/ic_action_option.png"
+    },
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_action_help.png",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/drawable-ldpi/ic_action_help.png"
+    },
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_action_filter.png",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/drawable-ldpi/ic_action_filter.png"
+    },
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_action_exit.png",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/drawable-ldpi/ic_action_exit.png"
+    },
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_action_tools.png",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/drawable-ldpi/ic_action_tools.png"
+    }
+]

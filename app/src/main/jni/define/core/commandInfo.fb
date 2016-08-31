@@ -1,0 +1,7 @@
+namespace st.osmonitor.core;
+
+table commandInfo {
+  arguments:[string];
+}
+  
+root_type commandInfo;

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/ui_process_item_detail.xml",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/layout-sw600dp/ui_process_item_detail.xml"
+    },
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/ui_process_item.xml",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/layout-sw600dp/ui_process_item.xml"
+    },
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/ui_connection_static_map.xml",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/layout-sw600dp/ui_connection_static_map.xml"
+    },
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/ui_connection_fragment.xml",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/layout-sw600dp/ui_connection_fragment.xml"
+    },
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/ui_process_fragment.xml",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/layout-sw600dp/ui_process_fragment.xml"
+    }
+]

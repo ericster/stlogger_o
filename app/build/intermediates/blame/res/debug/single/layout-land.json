@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/layout-land/dialog_color_picker.xml",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/exploded-aar/stlogger/colorpicker/unspecified/res/layout-land/dialog_color_picker.xml"
+    },
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/layout-land/ui_connection_static_map.xml",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/layout-land/ui_connection_static_map.xml"
+    }
+]

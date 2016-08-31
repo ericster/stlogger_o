@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/menu/ui_message_menu.xml",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/menu/ui_message_menu.xml"
+    },
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/menu/ui_misc_menu.xml",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/menu/ui_misc_menu.xml"
+    },
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/menu/ui_process_menu.xml",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/menu/ui_process_menu.xml"
+    },
+    {
+        "merged": "/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/res/merged/debug/menu/ui_connection_menu.xml",
+        "source": "/home/sung/AndroidStudioProjects/stlogger/app/src/main/res/menu/ui_connection_menu.xml"
+    }
+]
