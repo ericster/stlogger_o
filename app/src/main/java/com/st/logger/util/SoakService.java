@@ -16,8 +16,10 @@ import android.util.Log;
 
 import com.st.logger.core.connectionInfo;
 import com.st.logger.core.connectionInfoList;
+import com.st.logger.core.dmesgInfo;
 import com.st.logger.core.processInfo;
 import com.st.logger.core.processInfoList;
+import com.st.logger.core.dmesgInfoList;
 import com.st.logger.ipc.IpcService;
 import com.st.logger.ipc.IpcService.ipcClientListener;
 import com.st.logger.ipc.ipcCategory;
@@ -45,6 +47,7 @@ public class SoakService extends Service implements ipcClientListener {
 
     // data
     private ArrayList<connectionInfo> data = new ArrayList<>();
+    private ArrayList<dmesgInfo> kdata = new ArrayList<>();
     private Settings settings = null;
 
     private ProcessUtil infoHelper = null;
@@ -119,6 +122,22 @@ public class SoakService extends Service implements ipcClientListener {
         return "";
     }
 
+    private String getDmesgInfoString(dmesgInfo item) {
+        StringBuilder logLine = new StringBuilder();
+        logLine.append(UserInterfaceUtil.getDmesgLevel(item.level()));
+        logLine.append(item.seconds() + " " + item.message());
+
+        try {
+            fileWriter.write(logLine.toString() + "\n");
+            fileWriter.flush();
+        } catch (IOException e) {
+            //Log.d("SOAK", "write failed...");
+            e.printStackTrace();
+        }
+
+        return logLine.toString();
+    }
+
     private String getConnectionInfoString(connectionInfo item) {
         StringBuilder logLine = new StringBuilder();
 
@@ -181,7 +200,7 @@ public class SoakService extends Service implements ipcClientListener {
             return;
 
         if (stopUpdate == true || result == null) {
-            byte newCommand[] = {ipcCategory.CONNECTION, ipcCategory.PROCESS};
+            byte newCommand[] = {ipcCategory.CONNECTION, ipcCategory.PROCESS, ipcCategory.DMESG};
             ipcService.addRequest(newCommand, settings.getInterval(), this);
             return;
         }
@@ -205,6 +224,8 @@ public class SoakService extends Service implements ipcClientListener {
                     extractProcessInfo(rawData);
                 else if (rawData.category() == ipcCategory.CONNECTION)
                     extractConnectionInfo(rawData);
+                else if (rawData.category() == ipcCategory.DMESG)
+                    extractDmesgInfo(rawData);
 
             }
         } catch (Exception e) {
@@ -217,11 +238,16 @@ public class SoakService extends Service implements ipcClientListener {
             Log.v("SOAK", getConnectionInfoString(cnInfo));
         }
         Log.v("SOAK", "\n");
+        for (dmesgInfo dInfo: kdata) {
+            Log.v("SOAK-d", getDmesgInfoString(dInfo));
+        }
+        Log.v("SOAK-d", "\n");
 
         // send command again
-        byte newCommand[] = {ipcCategory.CONNECTION, ipcCategory.PROCESS};
+        byte newCommand[] = {ipcCategory.CONNECTION, ipcCategory.PROCESS, ipcCategory.DMESG};
         ipcService.addRequest(newCommand, settings.getInterval(), this);
     }
+
 
     private void extractConnectionInfo(ipcData rawData) {
         // process connectionInfo
@@ -241,6 +267,14 @@ public class SoakService extends Service implements ipcClientListener {
                 infoHelper.doCacheInfo(psInfo.uid(), psInfo.owner(), psInfo.name());
             }
             map.put(psInfo.uid(), psInfo.name());
+        }
+    }
+
+    private void extractDmesgInfo(ipcData rawData) {
+        dmesgInfoList list = dmesgInfoList.getRootAsdmesgInfoList(rawData.payloadAsByteBuffer().asReadOnlyBuffer());
+        for (int count = 0; count < list.listLength(); count++) {
+            dmesgInfo dInfo = list.list(count);
+            kdata.add(dInfo);
         }
     }
 
