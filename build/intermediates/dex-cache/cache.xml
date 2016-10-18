@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jar="/home/me.jung/Project/stlogger_o/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.0_a8d13860bcaa407271730c80c735a839dad0c27c/classes.dex" />
+        sha1="397987a57d02b3b8cef133f9d9386ef83147c2ff">
+        <dex dex="/home/me.jung/Project/stlogger_o/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_035cb88d4a4a682cc69dfc76f8c54c2fb5fb2bdf/classes.dex" />
     </item>
     <item
-        jar="/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jar="/home/me.jung/Project/stlogger_o/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.1"
         sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.0_0ed93af647d7c6fb3c00c03690640ef91ca9a673/classes.dex" />
+        <dex dex="/home/me.jung/Project/stlogger_o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.0_3a4c73126b681a2b0f3cd533e926a2266ba9e054/classes.dex" />
     </item>
     <item
-        jar="/home/sung/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jar="/home/me.jung/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
         jumboMode="true"
         revision="23.0.1"
         sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.0_3deb02ab22bdd8dfbeffed96276652bb20a9756c/classes.dex" />
+        <dex dex="/home/me.jung/Project/stlogger_o/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.0_5d5fc0d72242a17f0c182901746a4ec522c22ced/classes.dex" />
     </item>
     <item
-        jar="/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/home/me.jung/Project/stlogger_o/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="a87aede5ef25091e4d94ee34c5dd782c5c88a8ce">
-        <dex dex="/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_36ce38d512b65ca1a2796e2c46bebbf26ab4701b/classes.dex" />
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/home/me.jung/Project/stlogger_o/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.0_db89312cb86c5536116aa7f0023ddaf4cca58b1a/classes.dex" />
     </item>
     <item
-        jar="/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.1"
-        sha1="cdf3b447c96684a866355bb7e890ca43f8971fcc">
-        <dex dex="/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_02bee1527d23ce5fc8ca97860f8114f197bb4d1b/classes.dex" />
-    </item>
-    <item
-        jar="/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jar="/home/me.jung/Project/stlogger_o/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
         jumboMode="true"
         revision="23.0.1"
         sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="/home/sung/AndroidStudioProjects/stlogger/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.0_c2873474839142c11cd95c8aafbf19778989c53d/classes.dex" />
+        <dex dex="/home/me.jung/Project/stlogger_o/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.0_16d7378973f8bd16c4b81f0b8c1a67f955e02655/classes.dex" />
+    </item>
+    <item
+        jar="/home/me.jung/Project/stlogger_o/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6e41f35100c7bde5233a004b7ec2f558aaba16de">
+        <dex dex="/home/me.jung/Project/stlogger_o/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_30dd08170f9dae8a5ee79aabc484c47e16c52210/classes.dex" />
     </item>
 
 </items>

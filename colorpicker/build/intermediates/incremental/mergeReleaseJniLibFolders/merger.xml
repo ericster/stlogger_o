@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/sung/AndroidStudioProjects/stlogger/colorpicker/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/home/sung/AndroidStudioProjects/stlogger/colorpicker/src/release/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/me.jung/Project/stlogger_o/colorpicker/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/home/me.jung/Project/stlogger_o/colorpicker/src/release/jniLibs"/></dataSet></merger>
